@@ -23,7 +23,7 @@ objectClass: posixAccount
 objectClass: shadowAccount
 cn: tcox
 uid: tcox
-uidNumber: 9999
+uidNumber: 10000
 gidNumber: 100
 homeDirectory: /home/tcox
 loginShell: /bin/bash
