@@ -1,0 +1,36 @@
+dn: uid=pinehead,ou=People,dc=la,dc=local
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: pinehead
+uid: pinehead
+uidNumber: 9999
+gidNumber: 100
+homeDirectory: /home/pinehead
+loginShell: /bin/bash
+gecos: pinehead [Lead Penguin (at) Linux Academy]
+userPassword: {crypt}x
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
+
+dn: uid=tcox,ou=People,dc=la,dc=local
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: tcox
+uid: tcox
+uidNumber: 9999
+gidNumber: 100
+homeDirectory: /home/tcox
+loginShell: /bin/bash
+gecos: Terry Cox [Super Dude (at) Linux Academy]
+userPassword: {crypt}x
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
+
