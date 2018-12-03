@@ -11,4 +11,4 @@ olcRootDN: cn=ldapadm,dc=la,dc=local
 dn: olcDatabase={2}hdb,cn=config
 changetype: modify
 replace: olcRootPW
-olcRootPW: {SHA}
+olcRootPW: {SSHA}
